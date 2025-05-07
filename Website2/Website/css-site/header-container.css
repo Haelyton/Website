@@ -1,0 +1,18 @@
+.header-container {
+    background-color: #1a1a1a;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    height:260px;
+    margin-right: 10px;
+    width: 260px;
+}
+
+  
+  
+

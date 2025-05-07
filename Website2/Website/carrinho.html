@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho - DigitalCore</title>
+
+    <link rel="stylesheet" href="css-carrinho/style.css">
+    <link rel="stylesheet" href="css-site/header-container.css">
+    <link rel="stylesheet" href="css-site/header-title.css">
+    <link rel="stylesheet" href="css-site/nav-list.css">
+
+    <link rel="stylesheet" href="css-site/footer.css">
+
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-title">
+            <p>Sua jornada digital <br>começa aqui.</p>
+        </div>
+        <div>
+            <a href="site.html">
+                <img class="logo" src="imgLogo/logo2.png" alt="">
+            </a>
+        </div>
+
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="#"><img
+                            src="imgCarrinho/pngtree-cart-vector-icon-design-illustration-png-image_9027679.png"
+                            alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="imgPerfil/perfil.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo">Carrinho de Compras</h2>
+
+        <section class="carrinho" id="cart-container">
+            <p><strong>Saldo disponível:</strong> <span id="user-balance">R$ 200,00</span></p>
+            <ul id="cart-items" class="cart-list"></ul>
+            <p id="total-price">Total: R$ 0,00</p>
+            <button id="checkout-button">Finalizar Compra</button>
+            <button id="clear-cart-button">Remover Todos</button>
+        </section>
+        
+        
+    </main>
+
+</body>
+
+<script src="js/List-Product/List-Product.js"></script>
+</html>

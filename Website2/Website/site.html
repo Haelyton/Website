@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalCore</title>
+
+    <link rel="stylesheet" href="css-site/header-container.css">
+    <link rel="stylesheet" href="css-site/header-title.css">
+    <link rel="stylesheet" href="css-site/nav-list.css">
+
+    <link rel="stylesheet" href="css-site/reset.css">
+
+    <link rel="stylesheet" href="css-site/main-container.css">
+    <link rel="stylesheet" href="css-site/main-title.css">
+    <link rel="stylesheet" href="css-site/main-products.css">
+    <link rel="stylesheet" href="css-site/products-container.css">
+    <link rel="stylesheet" href="css-site/footer.css">
+    <link rel="stylesheet" href="css-site/products-image.css">
+
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-title">
+            <p>Sua jornada digital <br>começa aqui.</p>
+        </div>
+        <div>
+            <a href="site.html">
+                <img class="logo" src="imgLogo/logo2.png" alt="">
+            </a>
+        </div>
+
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="carrinho.html" class="cart-icon">
+                        <img src="imgCarrinho/pngtree-cart-vector-icon-design-illustration-png-image_9027679.png"
+                            alt="">
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="imgPerfil/perfil.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="cart"
+            style="display: none; position: fixed; top: 150px; right: 20px; width: 300px; background: #fff; color: #000; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #000; z-index: 1000;">
+            <h3>Carrinho</h3>
+            <ul id="cart-items"></ul>
+            <p><strong>Total:</strong> R$ <span id="cart-total">0.00</span></p>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div>
+            <div class="main-title">
+                <h2>Produtos</h2>
+            </div>
+
+            <div class="products-container">
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/fd335b4c336ec0fbbc2a73032e087f35-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 3.079,99</span>
+                    </div>
+                </div>
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/51QZcz2xdJL._AC_UF894_1000_QL80_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 759,00</span>
+                    </div>
+                </div>
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/images__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 150,00</span>
+                    </div>
+                </div>
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/teclado-gamer-60-mecanico-mk005-blanco-teclado-gamer-60-mecanico-mk005-blanco-removebg-preview.png"
+                            alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 180,00</span>
+                    </div>
+                </div>
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/images__2_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 200,00</span>
+                    </div>
+                </div>
+
+                <div class="main-products">
+                    <div class="products-image">
+                        <img src="ProdutosImg/20200817043812-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <button class="add-button">Adicionar</button>
+                        <span class="price">R$ 1.999,90</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+</body>
+
+
+<script src="js/adicionar-produto/adicionar-produto.js"></script>
+<script src="js/List-Product/List-Product.js"></script>
+
+</html>
